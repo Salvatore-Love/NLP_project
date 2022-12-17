@@ -9,6 +9,30 @@ git clone 就是你clone到本地进行修改，然后你可以提交到clone的
 所以本次项目用fork一同完成这个大项目
 
 
+## 💖:使用方法
+
+### 训练方法
+
+```shell
+$ python datapreprocess.py
+```
+对语料库进行数据预处理，产生corpus.pth
+
+在config.py文件中看有没有自己想要修改的参数，一般情况默认就好
+
+### 测试方法
+
+运行app.py程序即可产生ui界面
+
+### 注意事项
+#### 训练时
+如果有GPU的话将config.py中注释掉的device= ......取消注释，然后再注释掉device = 'cpu' 。
+这里我们测试时是在cpu上
+然后如果不需要从已经训练好的模型开始训练的话，将model_ckpt设置为None
+#### 测试时
+也是要注意device和model
+
+总而言之代码如果拼不通认真看看config.py里的注释
 
 
 ## :pray:致谢
