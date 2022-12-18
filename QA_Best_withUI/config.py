@@ -11,8 +11,8 @@ class Config:
     max_input_length = 50 #输入的最大句子长度
     max_generate_length = 20 #生成的最大句子长度
     prefix = 'checkpoints/chatbot'  #模型断点路径前缀
-    # model_ckpt  = 'checkpoints/chatbot_best' #加载模型路径
-    model_ckpt = None  #如果从头开始训练（比如在不同的数据集上开始训练），取消这个注释
+    model_ckpt  = 'checkpoints/chatbot_best' #加载模型路径
+    # model_ckpt = None  #如果从头开始训练（比如在不同的数据集上开始训练），取消这个注释
     '''
     训练超参数
     '''

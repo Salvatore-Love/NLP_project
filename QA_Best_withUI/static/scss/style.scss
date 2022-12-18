@@ -37,7 +37,7 @@ body {
 }
 
 body {
-  background: linear-gradient(135deg, #044f48, #2a7561);
+  background: linear-gradient(135deg, #db2ddb, #2a3d75);
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
@@ -52,7 +52,7 @@ body {
   left: 0;
   z-index: 1;
   background: url('https://images.unsplash.com/photo-1451186859696-371d9477be93?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925') no-repeat 0 0;
-  filter: blur(80px);
+  filter: blur(2px);
   transform: scale(1.2);
 }
 
@@ -194,7 +194,7 @@ Messages
       float: right;
       color: #fff;
       text-align: right;
-      background: linear-gradient(120deg, #248A52, #257287);
+      background: linear-gradient(120deg, #245a8a, #0e6c86);
       border-radius: 10px 10px 0 10px;
       
       &::before {
@@ -283,7 +283,7 @@ Message Box
     right: 10px;
     color: #fff;
     border: none;
-    background: #248A52;
+    background: #243e8a;
     font-size: 10px;
     text-transform: uppercase;
     line-height: 1;
@@ -293,7 +293,7 @@ Message Box
     transition: background .2s ease;
     
     &:hover {
-      background: #1D7745;
+      background: #1d4677;
     }
   }
 }

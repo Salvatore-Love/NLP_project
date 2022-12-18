@@ -16,8 +16,8 @@ body {
 }
 
 body {
-  background: -webkit-linear-gradient(315deg, #044f48, #2a7561);
-  background: linear-gradient(135deg, #044f48, #2a7561);
+  background: -webkit-linear-gradient(315deg, #2cd7c7, #463dc6);
+  background: linear-gradient(135deg, #43d7ca, #c362c6);
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
@@ -27,14 +27,14 @@ body {
 
 .bg {
   width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
+  height:100%;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
   /*background: url("/static/res/hd2.jpg") no-repeat 0 0;*/
   background: url("/static/res/gg.gif") no-repeat 0 0;
-  -webkit-filter: blur(1px);
-          filter: blur(1px);
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
@@ -319,7 +319,7 @@ Message Box
   transition: background .2s ease;
 }
 .message-box .message-submit:hover {
-  background: #1D7745;
+  background: #1d5077;
 }
 
 /*--------------------
